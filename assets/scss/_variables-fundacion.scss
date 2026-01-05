@@ -1,0 +1,43 @@
+// importación tipografía
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// colores fundación 
+
+$primary_indigo: #201547;
+$primary_blue: #2E3E80;
+$accent_magenta: #C20054;
+$accent_cobalt: #0E4FBF;
+$primary_yellow: #FBB413;
+$shade_white: #DFE2EE;
+$accent_yellow: #FBE122;
+$accent_teal: #9AC7EF;
+$main_black: #1C1B1F;
+$main_white: #F0F0F0;
+
+// Fuente
+
+$font-family: "Montserrat", sans-serif;
+
+// tamaños tipográficos
+
+$h1-font-size: 60px;
+$h2-font-size: 42px;
+$h3-font-size: 29px;
+$h4-font-size: 20px;
+$paragraph-font-size: 20px;
+
+// pesos tipográficos
+
+$font-weight-base: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: 800;
+
+// interlíneas
+
+$line-height-base: 125%;
+$line-height-sm: 110%;
+$line-height-lg:  135%;
+
+// ver la opción de integrar los interlineados de 120% y 115% que me están faltando
