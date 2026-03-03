@@ -12006,5 +12006,21 @@ header, footer {
   fill: #F0F0F0;
 }
 .top-menu svg {
-  width: 20px;
+  width: 17px;
+}
+
+.navbar-brand {
+  background-image: url(../images/Logo-Gantz.svg);
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 58.33px;
+  background-size: contain;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+header .nav-link {
+  color: #F0F0F0;
 }/*# sourceMappingURL=style.css.map */
