@@ -11997,4 +11997,14 @@ header, footer {
 
 .top-menu {
   background-color: #201547;
+  overflow: hidden;
+  font-size: 13px;
+  color: #F0F0F0;
+}
+.top-menu a, .top-menu .nav-link {
+  color: #F0F0F0;
+  fill: #F0F0F0;
+}
+.top-menu svg {
+  width: 20px;
 }/*# sourceMappingURL=style.css.map */
