@@ -1,3 +1,5 @@
+// GENERALES
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +9,13 @@
 body {
     font-family: $font-family;
 }
-header, footer {
+header {
     background-color: $primary_blue;
     color: $white;
 }
+
 // HEADER 
+
 .top-menu {
     background-color: $primary_indigo;
     //height: 36px;
@@ -68,5 +72,50 @@ header {
     .btn-primary {
         background-color: $primary_indigo;
         border-color: $primary_indigo;
+    }
+}
+
+// FOOTER
+
+footer {
+    padding: 80px 0;
+    background-color: $primary_indigo;
+    color: $white;
+    .nav-link {
+        color: $main_white;
+        fill: $main_white;
+        fill: $main_white;
+        svg {
+            width: 17px;
+        }
+    }
+    .navbar-brand {
+        width: 247px;
+        height: 103px;
+    }
+    h2, h3 {
+        color: $primary_yellow;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: $h3-font-size;
+        margin-bottom: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .tiny-menu {
+        font-size: $h5-font-size;
+        margin-bottom: 20px;
+        a {
+            color: $main_white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        i {
+            margin-right: 5px;
+        }
     }
 }

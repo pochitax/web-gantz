@@ -11990,7 +11990,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-header, footer {
+header {
   background-color: #2E3E80;
   color: #fff;
 }
@@ -12051,4 +12051,47 @@ header .navbar .nav-item .nav-link:hover, header .navbar .nav-item .nav-link:hov
 header .btn-primary {
   background-color: #201547;
   border-color: #201547;
+}
+
+footer {
+  padding: 80px 0;
+  background-color: #201547;
+  color: #fff;
+}
+footer .nav-link {
+  color: #F0F0F0;
+  fill: #F0F0F0;
+  fill: #F0F0F0;
+}
+footer .nav-link svg {
+  width: 17px;
+}
+footer .navbar-brand {
+  width: 247px;
+  height: 103px;
+}
+footer h2, footer .h2, footer h3, footer .h3 {
+  color: #FBB413;
+  font-weight: 600;
+}
+footer h2, footer .h2 {
+  font-size: 29px;
+  margin-bottom: 24px;
+}
+footer h3, footer .h3 {
+  font-size: 16px;
+}
+footer .tiny-menu {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+footer .tiny-menu a {
+  color: #F0F0F0;
+  text-decoration: none;
+}
+footer .tiny-menu a:hover {
+  text-decoration: underline;
+}
+footer .tiny-menu i {
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */
