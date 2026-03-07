@@ -107,6 +107,9 @@ footer {
     .tiny-menu {
         font-size: $h5-font-size;
         margin-bottom: 20px;
+        li {
+            margin-bottom: 4px;
+        }
         a {
             color: $main_white;
             text-decoration: none;
@@ -116,6 +119,24 @@ footer {
         }
         i {
             margin-right: 5px;
+        }
+    }
+    .nav-footer {
+        font-size: 16px;
+        .nav-link {
+            color: $white;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 24px;
+            padding-right: 24px;
+            border-left: 1px solid rgba(255, 255, 255, 0.20);
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        li.nav-item:first-child .nav-link {
+            padding-left: 0 !important;
+            border-left: none !important;
         }
     }
 }

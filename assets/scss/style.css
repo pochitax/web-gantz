@@ -12085,6 +12085,9 @@ footer .tiny-menu {
   font-size: 13px;
   margin-bottom: 20px;
 }
+footer .tiny-menu li {
+  margin-bottom: 4px;
+}
 footer .tiny-menu a {
   color: #F0F0F0;
   text-decoration: none;
@@ -12094,4 +12097,22 @@ footer .tiny-menu a:hover {
 }
 footer .tiny-menu i {
   margin-right: 5px;
+}
+footer .nav-footer {
+  font-size: 16px;
+}
+footer .nav-footer .nav-link {
+  color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+footer .nav-footer .nav-link:hover {
+  text-decoration: underline;
+}
+footer .nav-footer li.nav-item:first-child .nav-link {
+  padding-left: 0 !important;
+  border-left: none !important;
 }/*# sourceMappingURL=style.css.map */
