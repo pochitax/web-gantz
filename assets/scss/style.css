@@ -11995,6 +11995,10 @@ header {
   color: #fff;
 }
 
+.mb-80 {
+  margin-bottom: 80px;
+}
+
 .top-menu {
   background-color: #201547;
   overflow: hidden;
@@ -12066,6 +12070,14 @@ footer .nav-link {
 footer .nav-link svg {
   width: 17px;
 }
+footer .nav-link:hover {
+  color: #FBB413;
+  fill: #FBB413;
+  text-decoration: underline;
+}
+footer .nav-link.link-form {
+  color: #FBB413;
+}
 footer .navbar-brand {
   width: 247px;
   height: 103px;
@@ -12094,6 +12106,7 @@ footer .tiny-menu a {
 }
 footer .tiny-menu a:hover {
   text-decoration: underline;
+  color: #FBB413;
 }
 footer .tiny-menu i {
   margin-right: 5px;
@@ -12111,8 +12124,12 @@ footer .nav-footer .nav-link {
 }
 footer .nav-footer .nav-link:hover {
   text-decoration: underline;
+  color: #FBB413;
 }
 footer .nav-footer li.nav-item:first-child .nav-link {
   padding-left: 0 !important;
   border-left: none !important;
+}
+footer .border-end {
+  border-color: rgba(255, 255, 255, 0.2) !important;
 }/*# sourceMappingURL=style.css.map */

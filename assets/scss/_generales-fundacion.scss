@@ -13,6 +13,9 @@ header {
     background-color: $primary_blue;
     color: $white;
 }
+.mb-80 {
+    margin-bottom: 80px;
+}
 
 // HEADER 
 
@@ -88,6 +91,14 @@ footer {
         svg {
             width: 17px;
         }
+        &:hover {
+            color: $primary_yellow;
+            fill: $primary_yellow;
+            text-decoration: underline;
+        }
+        &.link-form {
+            color: $primary_yellow;
+        }
     }
     .navbar-brand {
         width: 247px;
@@ -116,6 +127,7 @@ footer {
         }
         a:hover {
             text-decoration: underline;
+            color: $primary_yellow;
         }
         i {
             margin-right: 5px;
@@ -133,10 +145,14 @@ footer {
         }
         .nav-link:hover {
             text-decoration: underline;
+            color: $primary_yellow;
         }
         li.nav-item:first-child .nav-link {
             padding-left: 0 !important;
             border-left: none !important;
         }
+    }
+    .border-end {
+        border-color: rgba(255, 255, 255, 0.20) !important;
     }
 }
