@@ -12,7 +12,6 @@ body {
 header {
     background-color: $primary_blue;
     color: $white;
-    position: relative; // revisar porque este header en diseño es fixed
 }
 .mb-80 {
     margin-bottom: 80px;
@@ -46,6 +45,12 @@ header {
     display: block;
 }
 header {
+    position: fixed; //relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    z-index: 10;
     .nav-link {
         color: $main_white;
     }
@@ -77,9 +82,23 @@ header {
         background-color: $primary_indigo;
         border-color: $primary_indigo;
     }
+    .booking-hours {
+        position: absolute;
+        right: 0;
+        bottom: -80px;
+        z-index: 2;
+        background-color: $primary_blue;
+        padding: 8px 24px 8px 8px;
+        border-radius: 8px 0 0 8px;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.40);
+    }
 }
 
 // FOOTER
+
+main {
+    padding-top: 126px;
+}
 
 footer {
     padding: 80px 0;

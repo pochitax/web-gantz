@@ -12025,6 +12025,14 @@ header {
   display: block;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: visible;
+  z-index: 10;
+}
 header .nav-link {
   color: #F0F0F0;
 }
@@ -12055,6 +12063,20 @@ header .navbar .nav-item .nav-link:hover, header .navbar .nav-item .nav-link:hov
 header .btn-primary {
   background-color: #201547;
   border-color: #201547;
+}
+header .booking-hours {
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+  z-index: 2;
+  background-color: #2E3E80;
+  padding: 8px 24px 8px 8px;
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+main {
+  padding-top: 126px;
 }
 
 footer {
