@@ -12061,6 +12061,7 @@ footer {
   padding: 80px 0;
   background-color: #201547;
   color: #fff;
+  position: relative;
 }
 footer .nav-link {
   color: #F0F0F0;
@@ -12132,4 +12133,17 @@ footer .nav-footer li.nav-item:first-child .nav-link {
 }
 footer .border-end {
   border-color: rgba(255, 255, 255, 0.2) !important;
+}
+footer .social-menu-links svg {
+  width: 28px;
+}
+footer .base-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(28, 27, 31, 0.3);
+  height: 42px;
+  line-height: 42px;
 }/*# sourceMappingURL=style.css.map */
