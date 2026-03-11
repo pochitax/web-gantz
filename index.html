@@ -160,22 +160,40 @@
     <!-- main // cuerpo -->
     <main role="main">
         <!-- carrusel de fotos inicial -->
-         <div id="carouselMainFeatures" class="carousel slide main-carousel-featured">
+         <div id="carouselMainFeatures" class="carousel slide main-carousel-featured" aria-labelledby="carrusel-destacados">
+            <h2 id="carrusel-destacados" class="d-none">Menú de Redes Sociales</h2>
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselMainFeatures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselMainFeatures" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselMainFeatures" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselMainFeatures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Destacados 1"></button>
+                <button type="button" data-bs-target="#carouselMainFeatures" data-bs-slide-to="1" aria-label="Destacados 2"></button>
+                <button type="button" data-bs-target="#carouselMainFeatures" data-bs-slide-to="2" aria-label="Destacados 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/carousel/sesion-1.jpg" class="d-block w-100" alt="...">
-                    
+                <div class="carousel-item slide-item-1 active">
+                    <img src="assets/images/carousel/carrusel1.webp" class="d-block w-100" alt="Niños de la Fundación Gantz abrazados y sonriendo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="row h-100 justify-content-end align-items-center">
+                            <div class="col-xxl-4 col-lg-5 text-start">
+                                <h3 class="carousel-title">Unidos por una sonrisa</h3>
+                                <p class="carousel-content">Somos una institución privada sin fines de lucro que se dedica al tratamiento de fisuras labiopalatinas en Chile.</p>
+                                <a href="#" class="btn btn-warning fw-semibold"><i aria-hidden="true" class="bi bi-person-fill me-1"></i> Quiénes somos</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/images/carousel/sesion-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item slide-item-2">
+                    <img src="assets/images/carousel/carrusel2.webp" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/images/carousel/sesion-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item slide-item-3">
+                    <img src="assets/images/carousel/carrusel3.webp" class="d-block w-100" alt="Paciente de la Fundación Gantz sonriendo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="row h-100 justify-content-end align-items-center">
+                            <div class="col-xxl-4 col-lg-5 text-start">
+                                <h3 class="carousel-title">Tú eres la pieza que falta.</h3>
+                                <p class="carousel-content">Dona o inscríbete como socio de Fundación Gantz para hacer un cambio y devolverle la sonrisa a niños con fisura labiopalatina.</p>
+                                <a href="#" class="btn btn-warning fw-semibold"><i aria-hidden="true" class="bi bi-person-fill me-1"></i> Quiénes somos</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselMainFeatures" data-bs-slide="prev">

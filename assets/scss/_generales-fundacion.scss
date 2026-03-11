@@ -115,6 +115,46 @@ main {
     .carousel-control-next {
         right: 40px;
     }
+    .carousel-item {
+        position: relative;
+        .carousel-caption {
+            position: absolute;
+            top: 0;
+        }
+        &.slide-item-1 {
+            .carousel-title {
+                font-size: $h1-font-size;
+                color: $primary_indigo;
+                font-weight: 800;
+            }
+            .carousel-content {
+                font-weight: 600;
+                color: $primary_blue;
+            }
+        }
+        &.slide-item-2 {
+            .carousel-title {
+                font-size: $h1-font-size;
+                font-weight: 800;
+                color: $primary_yellow;
+            }
+            .carousel-content {
+                font-weight: 600;
+                color: $main_white;
+            }
+        }
+        &.slide-item-3 {
+            .carousel-title {
+                font-size: $h1-font-size;
+                font-weight: 800;
+                color: $primary_yellow;
+            }
+            .carousel-content {
+                font-weight: 600;
+                color: $main_white;
+            }
+        }
+    }
 }
 
 footer {

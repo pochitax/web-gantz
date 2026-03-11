@@ -12093,6 +12093,40 @@ main {
 .main-carousel-featured .carousel-control-next {
   right: 40px;
 }
+.main-carousel-featured .carousel-item {
+  position: relative;
+}
+.main-carousel-featured .carousel-item .carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.main-carousel-featured .carousel-item.slide-item-1 .carousel-title {
+  font-size: 60px;
+  color: #201547;
+  font-weight: 800;
+}
+.main-carousel-featured .carousel-item.slide-item-1 .carousel-content {
+  font-weight: 600;
+  color: #2E3E80;
+}
+.main-carousel-featured .carousel-item.slide-item-2 .carousel-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #FBB413;
+}
+.main-carousel-featured .carousel-item.slide-item-2 .carousel-content {
+  font-weight: 600;
+  color: #F0F0F0;
+}
+.main-carousel-featured .carousel-item.slide-item-3 .carousel-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #FBB413;
+}
+.main-carousel-featured .carousel-item.slide-item-3 .carousel-content {
+  font-weight: 600;
+  color: #F0F0F0;
+}
 
 footer {
   padding: 80px 0;
