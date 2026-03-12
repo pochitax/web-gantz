@@ -12080,6 +12080,16 @@ main {
   padding-top: 126px;
 }
 
+.title-feature-soap {
+  font-weight: 800;
+  color: #201547;
+}
+
+.content-feature-soap {
+  color: #201547;
+  font-size: 20px;
+}
+
 .main-carousel-featured .carousel-control-prev, .main-carousel-featured .carousel-control-next {
   background-color: #FBB413;
   height: 60px;

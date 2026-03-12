@@ -99,6 +99,14 @@ header {
 main {
     padding-top: 126px;
 }
+.title-feature-soap {
+    font-weight: 800;
+    color: $primary_indigo;
+}
+.content-feature-soap {
+    color: $primary_indigo;
+    font-size: $h4-font-size;
+}
 
 .main-carousel-featured {
     .carousel-control-prev, .carousel-control-next {

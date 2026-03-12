@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Fundación Gantz</title>
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- header // cabecera -->
+    <header role="banner">
+        <!-- Menú secundario del header // Todos los accesos deben ser editables -->
+        <nav aria-labelledby="social-menu" class="top-menu d-none d-md-block">
+            <!-- class hidden para el título del menú-->
+            <h2 id="social-menu" class="d-none">Menú de Redes Sociales</h2>
+            <div class="container">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Transparencia</a>
+                    </li>
+                    <li class="nav-item icon-instagram">
+                        <a href="https://www.instagram.com/fundacion.gantz/" target="_blank" class="nav-link" aria-label="Conoce nuestro Instagram">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.73 17.72">
+                                <path class="cls-1" d="M8.87,4.32c-2.52,0-4.54,2.03-4.54,4.54s2.03,4.54,4.54,4.54,4.54-2.03,4.54-4.54-2.03-4.54-4.54-4.54ZM8.87,11.82c-1.63,0-2.95-1.32-2.95-2.95s1.32-2.95,2.95-2.95,2.95,1.32,2.95,2.95-1.33,2.95-2.95,2.95ZM14.66,4.13c0,.59-.47,1.06-1.06,1.06s-1.06-.47-1.06-1.06.47-1.06,1.06-1.06,1.06.47,1.06,1.06ZM17.67,5.21c-.07-1.42-.39-2.68-1.43-3.71C15.2.46,13.94.13,12.52.06,11.06-.02,6.67-.02,5.21.06c-1.42.07-2.67.39-3.71,1.43C.45,2.53.13,3.78.06,5.2-.02,6.67-.02,11.05.06,12.52c.07,1.42.39,2.68,1.43,3.71,1.04,1.04,2.29,1.36,3.71,1.43,1.46.08,5.85.08,7.31,0,1.42-.07,2.68-.39,3.71-1.43,1.04-1.04,1.36-2.29,1.43-3.71.08-1.46.08-5.85,0-7.31ZM15.78,14.09c-.31.78-.91,1.37-1.68,1.68-1.17.46-3.94.36-5.22.36s-4.06.1-5.22-.36c-.78-.31-1.37-.91-1.68-1.68-.46-1.17-.36-3.94-.36-5.22s-.1-4.06.36-5.22c.31-.78.91-1.37,1.68-1.68,1.17-.46,3.94-.36,5.22-.36s4.06-.1,5.22.36c.78.31,1.37.91,1.68,1.68.46,1.17.36,3.94.36,5.22s.11,4.06-.36,5.22Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item icon-youtube">
+                        <a href="https://www.youtube.com/@fundaciongantz6431" target="_blank" class="nav-link" aria-label="Ver nuestro canal de Youtube">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.2 13.5">
+                                <path class="cls-1" d="M18.8,2.11c-.22-.83-.87-1.49-1.7-1.71-1.5-.4-7.5-.4-7.5-.4,0,0-6,0-7.5.4-.83.22-1.48.88-1.7,1.71-.4,1.51-.4,4.65-.4,4.65,0,0,0,3.14.4,4.65.22.83.87,1.46,1.7,1.68,1.5.4,7.5.4,7.5.4,0,0,6,0,7.5-.4.83-.22,1.48-.85,1.7-1.68.4-1.51.4-4.65.4-4.65,0,0,0-3.14-.4-4.65ZM7.64,9.62V3.91l5.02,2.85-5.02,2.85Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item icon-linkedin">
+                        <a href="https://www.linkedin.com/company/fundaciongantz/" target="_blank" class="nav-link" aria-label="Conoce nuestro perfil de LinkedIn">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.72 17.72">
+                                <path class="cls-1" d="M3.97,17.72H.29V5.89h3.67v11.83ZM2.13,4.28c-1.17,0-2.13-.97-2.13-2.15,0-.56.22-1.11.62-1.5.4-.4.94-.62,1.5-.62s1.11.22,1.5.62c.4.4.62.94.62,1.5,0,1.17-.95,2.15-2.13,2.15ZM17.71,17.72h-3.67v-5.76c0-1.37-.03-3.13-1.91-3.13s-2.2,1.49-2.2,3.03v5.86h-3.67V5.89h3.52v1.61h.05c.49-.93,1.69-1.91,3.48-1.91,3.72,0,4.4,2.45,4.4,5.63v6.5h0Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item icon-facebook">
+                        <a href="" target="_blank" class="nav-link" aria-label="Visita nuestra página de Facebook">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.72 17.72">           
+                                <path class="cls-1" d="M15.82,0H1.9c-.5,0-.99.2-1.34.56-.36.36-.56.84-.56,1.34v13.92c0,.5.2.99.56,1.34.36.36.84.56,1.34.56h5.43v-6.02h-2.49v-2.84h2.49v-2.16c0-2.46,1.46-3.82,3.7-3.82,1.07,0,2.2.19,2.2.19v2.41h-1.24c-1.22,0-1.6.76-1.6,1.53v1.84h2.72l-.44,2.84h-2.29v6.02h5.43c.5,0,.99-.2,1.34-.56.36-.36.56-.84.56-1.34V1.9c0-.5-.2-.99-.56-1.34-.36-.36-.84-.56-1.34-.56Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item icon-tiktok">
+                        <a href="https://www.tiktok.com/@fundacion.gantz" target="_blank" class="nav-link" aria-label="Interactúa con nuestro Tik Tok">
+                            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.4 17.72">
+                                <path class="cls-1" d="M8.09.01C9.05,0,10.02,0,10.97,0c.03,1.2.52,2.28,1.29,3.08h0c.83.75,1.92,1.24,3.11,1.32h.02v2.98c-1.13-.03-2.19-.29-3.15-.74l.05.02c-.46-.22-.86-.45-1.23-.71l.03.02c0,2.16,0,4.31-.01,6.46-.06,1.1-.42,2.09-1.01,2.93v-.02c-.96,1.4-2.55,2.32-4.34,2.37h0c-.07,0-.16,0-.24,0-1.02,0-1.98-.28-2.79-.78h.02C1.23,16.06.21,14.54.02,12.76v-.02c-.02-.37-.02-.74,0-1.1.29-2.82,2.66-5.01,5.53-5.01.32,0,.64.03.95.08h-.03c.01,1.09-.03,2.18-.03,3.27-.25-.09-.54-.14-.84-.14-1.1,0-2.04.71-2.39,1.69v.02c-.08.25-.13.54-.13.84,0,.12,0,.24.02.36h0c.2,1.19,1.23,2.11,2.48,2.11.04,0,.07,0,.11,0h0c.86-.03,1.62-.49,2.04-1.18h0c.16-.23.27-.5.3-.79h0c.07-1.33.04-2.64.05-3.97,0-2.98,0-5.94.01-8.91h0Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Menú principal del header // Todos los accesos deben ser editables -->
+        <nav aria-labelledby="principal-menu" class="navbar navbar-expand-lg py-3">
+            <!-- class hidden para el título del menú-->
+            <h2 id="principal-menu" class="d-none">Menú Principal</h2>
+            <div class="container">
+                <h1 class="mb-0"><a class="navbar-brand" href="https://gantz.cl/">Fundación Gantz, Hospital del Niño con Fisura</a></h1>
+                
+                <a href="https://unidosporunasonrisa.cl/" aria-label="Realiza tu donación" class="btn btn-warning fw-semibold btn-donate"><i aria-hidden="true" class="bi bi-heart-fill me-2"></i>Dona</a>
+                <!--<a href="#" aria-label="Buscar contenidos dentro del sitio de la Fundación" class="btn btn-primary ms-3 rounded-circle"><i aria-hidden="true" class="bi bi-search"></i></a>-->
+            </div>
+        </nav>
+        <!-- Botón de reserva de horas -->
+        <div class="booking-hours d-none" aria-label="Si deseas agendar online una hora de nutrición, psicología, kinesiología o asistencia social accede acá">
+            <a href="#" class="btn btn-outline-light fw-semibold"><i aria-hidden="true" class="bi bi-calendar-event me-1"></i> Reserva tu hora</a>
+        </div>
+    </header>
+    <!-- main // cuerpo -->
+    <main role="main">
+        <!-- soap -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/soap/landing-1-soap.jpg" class="w-100" alt="Afiche de campaña Soap 2026">
+                </div>
+                <div class="col-md-8 py-5 px-5">
+                    <h2 class="h1 title-feature-soap mb-4">Asegura una Sonrisa 2026</h2>
+                    <p class="content-feature-soap">Al adquirir tu SOAP estarás contribuyendo en las cirugías y tratamientos médicos para que cientos de niños con fisura labiopalatina puedan sonreír, comer y hablar como lo haces tú. Para Fundación Gantz, este 2026 tiene un objetivo muy especial: alcanzar la meta de <strong>4.000 pólizas solidarias</strong>, y tu aporte es clave para hacerlo posible.</p>
+                    <p class="content-feature-soap">A continuación puedes escoger el monto a donar al adquirir tu seguro obligatorio de accidentes personales, tanto para tu auto, moto, minibus, camionetas, furgones, entre otros.</p>
+                    <img src="assets/images/soap/autos-soap.jpg" class="w-100 my-4" alt="Valores de las polizas por tipo auto">
+                    <div class="row text-center">
+                        <div class="col-sm-4">
+                            <a href="https://soap.hdi.cl/soap/?key=20261495_11111_soap33202617574033_6535&amp;intrut=11111&amp;local=90&amp;venid=0&amp;next=home.aspx" aria-label="Contratar" class="btn btn-primary btn-lg mb-4">Póliza HDI + $3.000</a>
+                            <p class="h3">Risa</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://soap.hdi.cl/soap/?key=20261497_11111_soap332026181023173_8125&amp;intrut=11111&amp;local=90&amp;venid=0&amp;next=home.aspx" aria-label="Contratar" class="btn btn-primary btn-lg mb-4">Póliza HDI + $5.000</a>
+                            <p class="h3">Sonrisa</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://soap.hdi.cl/soap/?key=20261496_11111_soap33202618535862_7307&amp;intrut=11111&amp;local=90&amp;venid=0&amp;next=home.aspx" aria-label="Contratar" class="btn btn-primary btn-lg mb-4">Póliza HDI + $10.000</a>
+                            <p class="h3">Carcajada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <hr class="mb-5">
+                    <h3 class="h4 fw-bold">FRASE LEGAL HDI SEGUROS</h3>
+                    <p class="fst-italic">El riesgo es cubierto por HDI Seguros S.A. bajo la POL 320130487 depositada en el registro de Comisión para el Mercado Financiero (CMF). Las condiciones generales pueden ser consultadas a través de sitio web de la Comisión para el Mercado Financiero (<a href="http://www.cmfchile.cl/" data-saferedirecturl="https://www.google.com/url?q=http://www.cmfchile.cl/&amp;source=gmail&amp;ust=1706795440380000&amp;usg=AOvVaw0KfOgB0WicKlFgPcAYr27l">www.cmfchile.cl</a>). La presente información es solo un resumen de las coberturas, el detalle de estas se encuentra en la póliza antes mencionada. Vigencia de la campaña entre el 20 de Enero 2026 hasta 31 de Marzo 2027. La oferta de este seguro sólo está  dirigida a vehículos de uso particular y no aplica a vehículos cuyo uso o destino sea comercial, entendiendo por tales (taxis básicos, taxis colectivos, taxi ejecutivo, taxi turismo, minibus transporte escolar, minibus turismo, bus particular, bus transporte escolar, taxis en general y buses urbanos o rurales), transportes de carga tales como tractocamiones, tractores agrícolas o industriales y máquinas automotrices, y remolques, semirremolques, rampla, entre otros.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer // pie de página -->
+     <footer role="contentinfo">
+        <div class="container mb-5">
+            <div class="row gx-5">
+                <section class="col px-5 me-4 text-center border-end">
+                    <h2 class="mb-80"><a class="navbar-brand mx-auto" href="https://gantz.cl/">Fundación Gantz, Hospital del Niño con Fisura</a></h2>
+                    <p class="mb-80">Lunes a viernes 09:00 a 17:30 hrs. <br>El Lazo 8545, Pudahuel. Santiago, Chile.</p>
+                    <h3 id="social-menu-footer" class="d-none">Menú de Redes Sociales en pie de página</h3>
+                    <ul class="nav justify-content-center mb-80 social-menu-links">
+                        <li class="nav-item icon-instagram">
+                            <a href="https://www.instagram.com/fundacion.gantz/" target="_blank" class="nav-link" aria-label="Conoce nuestro Instagram">
+                                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.73 17.72">
+                                    <path class="cls-1" d="M8.87,4.32c-2.52,0-4.54,2.03-4.54,4.54s2.03,4.54,4.54,4.54,4.54-2.03,4.54-4.54-2.03-4.54-4.54-4.54ZM8.87,11.82c-1.63,0-2.95-1.32-2.95-2.95s1.32-2.95,2.95-2.95,2.95,1.32,2.95,2.95-1.33,2.95-2.95,2.95ZM14.66,4.13c0,.59-.47,1.06-1.06,1.06s-1.06-.47-1.06-1.06.47-1.06,1.06-1.06,1.06.47,1.06,1.06ZM17.67,5.21c-.07-1.42-.39-2.68-1.43-3.71C15.2.46,13.94.13,12.52.06,11.06-.02,6.67-.02,5.21.06c-1.42.07-2.67.39-3.71,1.43C.45,2.53.13,3.78.06,5.2-.02,6.67-.02,11.05.06,12.52c.07,1.42.39,2.68,1.43,3.71,1.04,1.04,2.29,1.36,3.71,1.43,1.46.08,5.85.08,7.31,0,1.42-.07,2.68-.39,3.71-1.43,1.04-1.04,1.36-2.29,1.43-3.71.08-1.46.08-5.85,0-7.31ZM15.78,14.09c-.31.78-.91,1.37-1.68,1.68-1.17.46-3.94.36-5.22.36s-4.06.1-5.22-.36c-.78-.31-1.37-.91-1.68-1.68-.46-1.17-.36-3.94-.36-5.22s-.1-4.06.36-5.22c.31-.78.91-1.37,1.68-1.68,1.17-.46,3.94-.36,5.22-.36s4.06-.1,5.22.36c.78.31,1.37.91,1.68,1.68.46,1.17.36,3.94.36,5.22s.11,4.06-.36,5.22Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item icon-youtube">
+                            <a href="https://www.youtube.com/@fundaciongantz6431" target="_blank" class="nav-link" aria-label="Ver nuestro canal de Youtube">
+                                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.2 13.5">
+                                    <path class="cls-1" d="M18.8,2.11c-.22-.83-.87-1.49-1.7-1.71-1.5-.4-7.5-.4-7.5-.4,0,0-6,0-7.5.4-.83.22-1.48.88-1.7,1.71-.4,1.51-.4,4.65-.4,4.65,0,0,0,3.14.4,4.65.22.83.87,1.46,1.7,1.68,1.5.4,7.5.4,7.5.4,0,0,6,0,7.5-.4.83-.22,1.48-.85,1.7-1.68.4-1.51.4-4.65.4-4.65,0,0,0-3.14-.4-4.65ZM7.64,9.62V3.91l5.02,2.85-5.02,2.85Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item icon-linkedin">
+                            <a href="https://www.linkedin.com/company/fundaciongantz/" target="_blank" class="nav-link" aria-label="Conoce nuestro perfil de LinkedIn">
+                                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.72 17.72">
+                                    <path class="cls-1" d="M3.97,17.72H.29V5.89h3.67v11.83ZM2.13,4.28c-1.17,0-2.13-.97-2.13-2.15,0-.56.22-1.11.62-1.5.4-.4.94-.62,1.5-.62s1.11.22,1.5.62c.4.4.62.94.62,1.5,0,1.17-.95,2.15-2.13,2.15ZM17.71,17.72h-3.67v-5.76c0-1.37-.03-3.13-1.91-3.13s-2.2,1.49-2.2,3.03v5.86h-3.67V5.89h3.52v1.61h.05c.49-.93,1.69-1.91,3.48-1.91,3.72,0,4.4,2.45,4.4,5.63v6.5h0Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item icon-facebook">
+                            <a href="" target="_blank" class="nav-link" aria-label="Visita nuestra página de Facebook">
+                                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.72 17.72">           
+                                    <path class="cls-1" d="M15.82,0H1.9c-.5,0-.99.2-1.34.56-.36.36-.56.84-.56,1.34v13.92c0,.5.2.99.56,1.34.36.36.84.56,1.34.56h5.43v-6.02h-2.49v-2.84h2.49v-2.16c0-2.46,1.46-3.82,3.7-3.82,1.07,0,2.2.19,2.2.19v2.41h-1.24c-1.22,0-1.6.76-1.6,1.53v1.84h2.72l-.44,2.84h-2.29v6.02h5.43c.5,0,.99-.2,1.34-.56.36-.36.56-.84.56-1.34V1.9c0-.5-.2-.99-.56-1.34-.36-.36-.84-.56-1.34-.56Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item icon-tiktok">
+                            <a href="https://www.tiktok.com/@fundacion.gantz" target="_blank" class="nav-link" aria-label="Interactúa con nuestro Tik Tok">
+                                <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.4 17.72">
+                                    <path class="cls-1" d="M8.09.01C9.05,0,10.02,0,10.97,0c.03,1.2.52,2.28,1.29,3.08h0c.83.75,1.92,1.24,3.11,1.32h.02v2.98c-1.13-.03-2.19-.29-3.15-.74l.05.02c-.46-.22-.86-.45-1.23-.71l.03.02c0,2.16,0,4.31-.01,6.46-.06,1.1-.42,2.09-1.01,2.93v-.02c-.96,1.4-2.55,2.32-4.34,2.37h0c-.07,0-.16,0-.24,0-1.02,0-1.98-.28-2.79-.78h.02C1.23,16.06.21,14.54.02,12.76v-.02c-.02-.37-.02-.74,0-1.1.29-2.82,2.66-5.01,5.53-5.01.32,0,.64.03.95.08h-.03c.01,1.09-.03,2.18-.03,3.27-.25-.09-.54-.14-.84-.14-1.1,0-2.04.71-2.39,1.69v.02c-.08.25-.13.54-.13.84,0,.12,0,.24.02.36h0c.2,1.19,1.23,2.11,2.48,2.11.04,0,.07,0,.11,0h0c.86-.03,1.62-.49,2.04-1.18h0c.16-.23.27-.5.3-.79h0c.07-1.33.04-2.64.05-3.97,0-2.98,0-5.94.01-8.91h0Z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>¿Tienes comentarios, reclamos, felicitaciones o alguna sugerencia?<br><a href="#" class="nav-link fw-semibold link-form py-2 d-none">Formulario de comentarios <i class="bi bi-arrow-right-short" aria-hidden="true"></i></a></p>
+                </section>
+                <section class="col-8">
+                    <div class="row mb-5">
+                        <nav aria-labelledby="interes-menu" class="col-6 d-none">
+                            <h2 id="interes-menu">Enlaces de interés</h2>
+                            <div class="row">
+                                <ul class="nav flex-column col-6">
+                                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Nuestra causa</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Nuestro equipo</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">¿Qué son las fisuras?</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Tratamiento</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Especialidades</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Publicaciones</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Galería de fotos</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Galería de videos</a></li>
+                                </ul>
+                                <ul class="nav flex-column col-6">
+                                    <li class="nav-item"><a href="#" class="nav-link">Newsletters</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Empresas</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Personas</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Transparencia</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Testimonios</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Ley de Donaciones</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Formulario de comentarios</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <nav aria-labelledby="contactos-menu" class="col-8">
+                            <h2 id="contactos-menu">Contactos</h2>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3>Recepción</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:recepcion@gantz.cl" aria-label="Escribir un mensaje a recepcion@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> recepcion@gantz.cl
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+56968781989" aria-label="Llamar al móvil +56-9-6878-1989">
+                                                <i aria-hidden="true" class="bi bi-telephone"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">9 6878 1989</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+56223386400" aria-label="Llamar al número +56-22-338-64-00">
+                                                <i aria-hidden="true" class="bi bi-telephone"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">22 338 64 00</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+56223386400" aria-label="Llamar al número +56-22-338-64-00">
+                                                <i aria-hidden="true" class="bi bi-telephone"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">Pendiente</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>Mesa Central</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:fundacion@gantz.cl" aria-label="Escribir un mensaje a fundacion@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> fundacion@gantz.cl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>Área Dental</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:dental@gantz.cl" aria-label="Escribir un mensaje a dental@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> dental@gantz.cl
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+56968448468" aria-label="Llamar al móvil +56-9-6844-8468">
+                                                <i aria-hidden="true" class="bi bi-whatsapp"></i><span class="visually-hidden">Escribir al Whatsapp</span> <span class="phone-number">9 6844 8468</span> <br><span class="text-white-50">(solo WhatsApp)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>Programas Médicos</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:programasgantz@gantz.cl" aria-label="Escribir un mensaje a programasgantz@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> programasgantz@gantz.cl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h3>Socios</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:socios@gantz.cl" aria-label="Escribir un mensaje a socios@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> socios@gantz.cl
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+56968448466" aria-label="Llamar al móvil +56-9-6844-8466">
+                                                <i aria-hidden="true" class="bi bi-telephone"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">9 6844 8466</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>Marketing y Comunicaciones</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:comunicaciones@gantz.cl" aria-label="Escribir un mensaje a comunicaciones@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> comunicaciones@gantz.cl
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+56968784688" aria-label="Llamar al móvil +56-9-6878-4688">
+                                                <i aria-hidden="true" class="bi bi-telephone"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">9 6878 4688</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>Contabilidad</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:contabilidad@gantz.cl" aria-label="Escribir un mensaje a contabilidad@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> contabilidad@gantz.cl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h3>Adquisiciones</h3>
+                                    <ul class="tiny-menu list-unstyled">
+                                        <li>
+                                            <a href="mailto:adquisiciones@gantz.cl" aria-label="Escribir un mensaje a adquisiciones@gantz.cl">
+                                                <i aria-hidden="true" class="bi bi-envelope"></i> adquisiciones@gantz.cl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div> 
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Agenda tu hora</h2>
+                            <p>¿Te interesa agendar una hora de atención con nuestros especialistas?</p>
+                            <ul class="nav nav-footer">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold" href="mailto:recepcion@gantz.cl" aria-label="Escribir un mensaje a recepcion@gantz.cl">
+                                        <i aria-hidden="true" class="bi bi-envelope me-2"></i> recepcion@gantz.cl
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold" href="tel:+56968781989" aria-label="Llamar al móvil +56-9-6878-1989">
+                                        <i aria-hidden="true" class="bi bi-telephone me-2"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">9 6878 1989</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold" href="tel:+56223386400" aria-label="Llamar al número +56-22-338-64-00">
+                                        <i aria-hidden="true" class="bi bi-telephone me-2"></i><span class="visually-hidden">Llamar al</span> <span class="phone-number">22 338 64 00</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                   
+                </section>
+            </div>
+        </div>
+        <span class="base-footer">2026 © Fundación Gantz. Todos los derechos reservados.</span>
+     </footer>
+</body>
+<script src="assets/bootstrap-5.3.8/dist/js/bootstrap.bundle.js"></script>
+</html>
