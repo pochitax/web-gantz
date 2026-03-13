@@ -100,8 +100,10 @@ main {
     padding-top: 126px;
 }
 .title-feature-soap {
-    font-weight: 800;
-    color: $primary_indigo;
+    //font-weight: 800;
+    color: #4b9fda;//$primary_indigo;
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
 }
 .content-feature-soap {
     color: $primary_indigo;
