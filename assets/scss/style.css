@@ -11999,6 +11999,45 @@ header {
   margin-bottom: 80px;
 }
 
+.bg-primary-blue {
+  background-color: #2E3E80;
+}
+
+.bg-primary-indigo {
+  background-color: #201547;
+}
+
+.bg-primary-blue, .bg-primary-indigo {
+  color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 20px;
+  width: 20px;
+  opacity: 1;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  z-index: 2;
+}
+.carousel-indicators [data-bs-target].active {
+  background-color: #FBB413;
+}
+.carousel-indicators [data-bs-target] {
+  /*  &::before {
+       position: absolute;
+       height: 20px;
+       width: 20px;
+       content: '';
+       background-color: rgba($main_black, 0.5);
+       z-index: 1;
+   }  */
+}
+
+.carousel-indicators {
+  border-radius: 20px;
+}
+
 .top-menu {
   background-color: #201547;
   overflow: hidden;
@@ -12098,6 +12137,7 @@ main {
   border-radius: 60px;
   top: 50%;
   margin-top: -30px;
+  opacity: 1;
 }
 .main-carousel-featured .carousel-control-prev {
   left: 40px;

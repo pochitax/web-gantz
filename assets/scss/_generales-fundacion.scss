@@ -16,6 +16,41 @@ header {
 .mb-80 {
     margin-bottom: 80px;
 }
+.bg-primary-blue {
+    background-color: $primary_blue;
+}
+.bg-primary-indigo {
+    background-color: $primary_indigo;
+}
+.bg-primary-blue, .bg-primary-indigo {
+    color: $white;
+}
+
+// CARRUSEL
+.carousel-indicators [data-bs-target] {
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    z-index: 2;
+    &.active {
+        background-color: $primary_yellow;
+    }
+   /*  &::before {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        content: '';
+        background-color: rgba($main_black, 0.5);
+        z-index: 1;
+    }  */
+}
+.carousel-indicators {
+    //background-color: rgba($main_black, 0.5);
+    border-radius: 20px;
+}
 
 // HEADER 
 
@@ -118,6 +153,7 @@ main {
         border-radius: 60px;
         top: 50%;
         margin-top: -30px;
+        opacity: 1;
     }
     .carousel-control-prev {
         left: 40px;
