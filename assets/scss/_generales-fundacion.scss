@@ -26,6 +26,20 @@ header {
     color: $white;
 }
 
+main {
+    padding-top: 126px;
+}
+.title-feature-soap {
+    //font-weight: 800;
+    color: #4b9fda;//$primary_indigo;
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+}
+.content-feature-soap {
+    color: $primary_indigo;
+    font-size: $h4-font-size;
+}
+
 // CARRUSEL
 .carousel-indicators [data-bs-target] {
     height: 20px;
@@ -50,20 +64,6 @@ header {
 .carousel-indicators {
     //background-color: rgba($main_black, 0.5);
     border-radius: 20px;
-}
-
-main {
-    padding-top: 126px;
-}
-.title-feature-soap {
-    //font-weight: 800;
-    color: #4b9fda;//$primary_indigo;
-    font-family: "Pacifico", cursive;
-    font-size: 60px;
-}
-.content-feature-soap {
-    color: $primary_indigo;
-    font-size: $h4-font-size;
 }
 
 .main-carousel-featured {
@@ -124,3 +124,29 @@ main {
     }
 }
 
+// Lista quienes somos
+.data-featured {
+    .data-featured-title {
+        color: $primary_yellow;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    dd {
+        padding: 1rem;
+        margin-bottom: 0;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 1rem;
+            right: 1rem;
+            border-bottom: 1px solid rgba($color: $white, $alpha: 0.5);
+        }
+        &:nth-child(2), &:nth-child(3) {
+            &::before {
+                border-bottom: 1px solid rgba($color: $white, $alpha: 0);
+            }
+        }
+    }
+}

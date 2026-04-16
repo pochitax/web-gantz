@@ -12179,6 +12179,21 @@ header {
   color: #fff;
 }
 
+main {
+  padding-top: 126px;
+}
+
+.title-feature-soap {
+  color: #4b9fda;
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+}
+
+.content-feature-soap {
+  color: #201547;
+  font-size: 20px;
+}
+
 .carousel-indicators [data-bs-target] {
   height: 20px;
   width: 20px;
@@ -12204,21 +12219,6 @@ header {
 
 .carousel-indicators {
   border-radius: 20px;
-}
-
-main {
-  padding-top: 126px;
-}
-
-.title-feature-soap {
-  color: #4b9fda;
-  font-family: "Pacifico", cursive;
-  font-size: 60px;
-}
-
-.content-feature-soap {
-  color: #201547;
-  font-size: 20px;
 }
 
 .main-carousel-featured .carousel-control-prev, .main-carousel-featured .carousel-control-next {
@@ -12269,4 +12269,26 @@ main {
 .main-carousel-featured .carousel-item.slide-item-3 .carousel-content {
   font-weight: 600;
   color: #F0F0F0;
+}
+
+.data-featured .data-featured-title {
+  color: #FBB413;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.data-featured dd {
+  padding: 1rem;
+  margin-bottom: 0;
+  position: relative;
+}
+.data-featured dd::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  right: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.data-featured dd:nth-child(2)::before, .data-featured dd:nth-child(3)::before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }/*# sourceMappingURL=style.css.map */
