@@ -25,6 +25,27 @@ header {
 .bg-primary-blue, .bg-primary-indigo {
     color: $white;
 }
+.section-title {
+    font-size: $h2-font-size;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.color-yellow-primary {
+    color: $primary_yellow;
+}
+.color-blue-primary {
+    color: $primary_blue;
+}
+.color-indigo-primary {
+    color: $primary_indigo;
+}
+.section-main {
+    padding: 5rem 0;
+    p {
+        margin-bottom: 1.5rem;
+        font-size: $paragraph-font-size;
+    }
+}
 
 main {
     padding-top: 126px;
@@ -135,15 +156,17 @@ main {
         padding: 1rem;
         margin-bottom: 0;
         position: relative;
+        font-weight: bold;
         &::before {
             content: '';
             position: absolute;
             top: 0;
             left: 1rem;
             right: 1rem;
-            border-bottom: 1px solid rgba($color: $white, $alpha: 0.5);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.20);
         }
         &:nth-child(2), &:nth-child(3) {
+            padding-top: 0;
             &::before {
                 border-bottom: 1px solid rgba($color: $white, $alpha: 0);
             }

@@ -12179,6 +12179,32 @@ header {
   color: #fff;
 }
 
+.section-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.color-yellow-primary {
+  color: #FBB413;
+}
+
+.color-blue-primary {
+  color: #2E3E80;
+}
+
+.color-indigo-primary {
+  color: #201547;
+}
+
+.section-main {
+  padding: 5rem 0;
+}
+.section-main p {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
 main {
   padding-top: 126px;
 }
@@ -12280,6 +12306,7 @@ main {
   padding: 1rem;
   margin-bottom: 0;
   position: relative;
+  font-weight: bold;
 }
 .data-featured dd::before {
   content: "";
@@ -12287,7 +12314,10 @@ main {
   top: 0;
   left: 1rem;
   right: 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.data-featured dd:nth-child(2), .data-featured dd:nth-child(3) {
+  padding-top: 0;
 }
 .data-featured dd:nth-child(2)::before, .data-featured dd:nth-child(3)::before {
   border-bottom: 1px solid rgba(255, 255, 255, 0);
