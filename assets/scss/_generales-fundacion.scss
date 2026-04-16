@@ -27,6 +27,7 @@ header {
 }
 .bg-shade-white {
     background-color: $shade_white;
+    color: $primary_blue;
 }
 .section-title {
     font-size: $h2-font-size;
@@ -45,8 +46,8 @@ header {
 .section-main {
     padding: 5rem 0;
     p {
-        margin-bottom: 1.5rem;
-        font-size: $paragraph-font-size;
+        //margin-bottom: 1.5rem;
+        //font-size: $paragraph-font-size;
     }
 }
 .wavy-underline {
@@ -162,6 +163,7 @@ main {
         color: $primary_yellow;
         font-weight: bold;
         font-size: 2.5rem;
+        line-height: 100%;
     }
     dd {
         padding: 1rem;
