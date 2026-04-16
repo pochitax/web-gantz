@@ -46,6 +46,14 @@ header {
         font-size: $paragraph-font-size;
     }
 }
+.wavy-underline {
+    text-decoration: underline;
+    text-decoration-color: $primary_yellow;
+    text-decoration-style: wavy;
+    text-underline-offset: .5rem;
+}
+
+// MAIN
 
 main {
     padding-top: 126px;

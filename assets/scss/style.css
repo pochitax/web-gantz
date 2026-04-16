@@ -12205,6 +12205,13 @@ header {
   font-size: 20px;
 }
 
+.wavy-underline {
+  text-decoration: underline;
+  text-decoration-color: #FBB413;
+  text-decoration-style: wavy;
+  text-underline-offset: 0.5rem;
+}
+
 main {
   padding-top: 126px;
 }
