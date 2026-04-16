@@ -11980,64 +11980,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-header {
-  background-color: #2E3E80;
-  color: #fff;
-}
-
-.mb-80 {
-  margin-bottom: 80px;
-}
-
-.bg-primary-blue {
-  background-color: #2E3E80;
-}
-
-.bg-primary-indigo {
-  background-color: #201547;
-}
-
-.bg-primary-blue, .bg-primary-indigo {
-  color: #fff;
-}
-
-.carousel-indicators [data-bs-target] {
-  height: 20px;
-  width: 20px;
-  opacity: 1;
-  border-radius: 100%;
-  margin-left: 15px;
-  margin-right: 15px;
-  z-index: 2;
-}
-.carousel-indicators [data-bs-target].active {
-  background-color: #FBB413;
-}
-.carousel-indicators [data-bs-target] {
-  /*  &::before {
-       position: absolute;
-       height: 20px;
-       width: 20px;
-       content: '';
-       background-color: rgba($main_black, 0.5);
-       z-index: 1;
-   }  */
-}
-
-.carousel-indicators {
-  border-radius: 20px;
-}
-
 .top-menu {
   background-color: #201547;
   overflow: hidden;
@@ -12113,71 +12055,6 @@ header .booking-hours {
   padding: 8px 24px 8px 8px;
   border-radius: 8px 0 0 8px;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
-}
-
-main {
-  padding-top: 126px;
-}
-
-.title-feature-soap {
-  color: #4b9fda;
-  font-family: "Pacifico", cursive;
-  font-size: 60px;
-}
-
-.content-feature-soap {
-  color: #201547;
-  font-size: 20px;
-}
-
-.main-carousel-featured .carousel-control-prev, .main-carousel-featured .carousel-control-next {
-  background-color: #FBB413;
-  height: 60px;
-  width: 60px;
-  border-radius: 60px;
-  top: 50%;
-  margin-top: -30px;
-  opacity: 1;
-}
-.main-carousel-featured .carousel-control-prev {
-  left: 40px;
-}
-.main-carousel-featured .carousel-control-next {
-  right: 40px;
-}
-.main-carousel-featured .carousel-item {
-  position: relative;
-}
-.main-carousel-featured .carousel-item .carousel-caption {
-  position: absolute;
-  top: 0;
-}
-.main-carousel-featured .carousel-item.slide-item-1 .carousel-title {
-  font-size: 60px;
-  color: #201547;
-  font-weight: 800;
-}
-.main-carousel-featured .carousel-item.slide-item-1 .carousel-content {
-  font-weight: 600;
-  color: #2E3E80;
-}
-.main-carousel-featured .carousel-item.slide-item-2 .carousel-title {
-  font-size: 60px;
-  font-weight: 800;
-  color: #FBB413;
-}
-.main-carousel-featured .carousel-item.slide-item-2 .carousel-content {
-  font-weight: 600;
-  color: #F0F0F0;
-}
-.main-carousel-featured .carousel-item.slide-item-3 .carousel-title {
-  font-size: 60px;
-  font-weight: 800;
-  color: #FBB413;
-}
-.main-carousel-featured .carousel-item.slide-item-3 .carousel-content {
-  font-weight: 600;
-  color: #F0F0F0;
 }
 
 footer {
@@ -12269,4 +12146,127 @@ footer .base-footer {
   background-color: rgba(28, 27, 31, 0.3);
   height: 42px;
   line-height: 42px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #2E3E80;
+  color: #fff;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.bg-primary-blue {
+  background-color: #2E3E80;
+}
+
+.bg-primary-indigo {
+  background-color: #201547;
+}
+
+.bg-primary-blue, .bg-primary-indigo {
+  color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 20px;
+  width: 20px;
+  opacity: 1;
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  z-index: 2;
+}
+.carousel-indicators [data-bs-target].active {
+  background-color: #FBB413;
+}
+.carousel-indicators [data-bs-target] {
+  /*  &::before {
+       position: absolute;
+       height: 20px;
+       width: 20px;
+       content: '';
+       background-color: rgba($main_black, 0.5);
+       z-index: 1;
+   }  */
+}
+
+.carousel-indicators {
+  border-radius: 20px;
+}
+
+main {
+  padding-top: 126px;
+}
+
+.title-feature-soap {
+  color: #4b9fda;
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+}
+
+.content-feature-soap {
+  color: #201547;
+  font-size: 20px;
+}
+
+.main-carousel-featured .carousel-control-prev, .main-carousel-featured .carousel-control-next {
+  background-color: #FBB413;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  top: 50%;
+  margin-top: -30px;
+  opacity: 1;
+}
+.main-carousel-featured .carousel-control-prev {
+  left: 40px;
+}
+.main-carousel-featured .carousel-control-next {
+  right: 40px;
+}
+.main-carousel-featured .carousel-item {
+  position: relative;
+}
+.main-carousel-featured .carousel-item .carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.main-carousel-featured .carousel-item.slide-item-1 .carousel-title {
+  font-size: 60px;
+  color: #201547;
+  font-weight: 800;
+}
+.main-carousel-featured .carousel-item.slide-item-1 .carousel-content {
+  font-weight: 600;
+  color: #2E3E80;
+}
+.main-carousel-featured .carousel-item.slide-item-2 .carousel-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #FBB413;
+}
+.main-carousel-featured .carousel-item.slide-item-2 .carousel-content {
+  font-weight: 600;
+  color: #F0F0F0;
+}
+.main-carousel-featured .carousel-item.slide-item-3 .carousel-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #FBB413;
+}
+.main-carousel-featured .carousel-item.slide-item-3 .carousel-content {
+  font-weight: 600;
+  color: #F0F0F0;
 }/*# sourceMappingURL=style.css.map */

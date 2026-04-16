@@ -1,0 +1,77 @@
+// HEADER 
+
+.top-menu {
+    background-color: $primary_indigo;
+    //height: 36px;
+    overflow: hidden;
+    font-size: $h5-font-size;
+    color: $main_white;
+    a, .nav-link {
+        color: $main_white;
+        fill: $main_white;
+    }
+    svg {
+        width: 17px;
+    }
+}
+.navbar-brand {
+    background-image: url(../images/Logo-Gantz.svg);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 58.33px;
+    background-size: contain;
+    text-indent: -9999px; 
+    overflow: hidden; 
+    white-space: nowrap;
+    display: block;
+}
+.btn-donate {
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    .bi-heart-fill {
+        color: $accent_magenta;
+    }
+}
+header {
+    position: fixed; //relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    z-index: 10;
+    .nav-link {
+        color: $main_white;
+    }
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: -0.255em;
+        font-family: bootstrap-icons !important;
+        content: "\F282";
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        color: $main_white;
+    }
+    .navbar .nav-item {
+        margin: 0 0.5rem;
+        .nav-link:hover, .nav-link:hover.dropdown-toggle::after, .nav-link.dropdown-toggle.show, .nav-link.dropdown-toggle.show::after {
+            color: $primary_yellow;
+        }
+    }
+    .btn-primary {
+        background-color: $primary_indigo;
+        border-color: $primary_indigo;
+    }
+    .booking-hours {
+        position: absolute;
+        right: 0;
+        bottom: -80px;
+        z-index: 2;
+        background-color: $primary_blue;
+        padding: 8px 24px 8px 8px;
+        border-radius: 8px 0 0 8px;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.40);
+    }
+}
+
