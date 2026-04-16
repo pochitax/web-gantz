@@ -12179,6 +12179,10 @@ header {
   color: #fff;
 }
 
+.bg-shade-white {
+  background-color: #DFE2EE;
+}
+
 .section-title {
   font-size: 42px;
   font-weight: bold;

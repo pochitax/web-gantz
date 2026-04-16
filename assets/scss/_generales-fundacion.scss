@@ -25,6 +25,9 @@ header {
 .bg-primary-blue, .bg-primary-indigo {
     color: $white;
 }
+.bg-shade-white {
+    background-color: $shade_white;
+}
 .section-title {
     font-size: $h2-font-size;
     font-weight: bold;
