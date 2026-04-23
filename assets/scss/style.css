@@ -12394,4 +12394,8 @@ main {
 }
 .entry-news.featured-news p {
   display: block;
+}
+
+.alliance-img {
+  max-width: 230px;
 }/*# sourceMappingURL=style.css.map */
