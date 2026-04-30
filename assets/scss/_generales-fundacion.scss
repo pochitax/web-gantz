@@ -52,6 +52,30 @@ header {
 }
 .section-featured {
     height: 512px;
+    .section-title {
+        font-size: $h1-font-size;
+    }
+    &.team-section-featured {
+        background-color: rgba($color: $primary_indigo, $alpha: .9);
+        color: $white;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        .mask {
+            position: absolute;
+            top: -20%; 
+            left: -20%;
+            width: 180%;
+            height: 180%;
+            z-index: -1;
+            background-image: url('../images/fondos/33e603e6316c29b4cc381a582479f715a0a4c608.png');
+            background-size: cover;
+            transform: rotate(15deg);
+            opacity: 0.1;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    }
 }
 @media (max-width: 768px) {
     .section-main {
