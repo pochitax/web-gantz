@@ -50,6 +50,11 @@ header {
         //font-size: $paragraph-font-size;
     }
 }
+@media (max-width: 768px) {
+    .section-main {
+        padding: 3rem 0;
+    }
+}
 .wavy-underline {
     text-decoration: underline;
     text-decoration-color: $primary_yellow;

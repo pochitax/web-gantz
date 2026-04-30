@@ -12205,6 +12205,11 @@ header {
 .section-main {
   padding: 5rem 0;
 }
+@media (max-width: 768px) {
+  .section-main {
+    padding: 3rem 0;
+  }
+}
 .wavy-underline {
   text-decoration: underline;
   text-decoration-color: #FBB413;
