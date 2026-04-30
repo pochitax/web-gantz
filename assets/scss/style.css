@@ -12205,6 +12205,10 @@ header {
 .section-main {
   padding: 5rem 0;
 }
+.section-featured {
+  height: 512px;
+}
+
 @media (max-width: 768px) {
   .section-main {
     padding: 3rem 0;
