@@ -43,6 +43,12 @@ header {
 .color-indigo-primary {
     color: $primary_indigo;
 }
+.btn-info {
+    background-color: $shade_white;
+    border-color: transparent;
+    border-radius: 30%;
+    color: $primary_blue;
+}
 .section-main {
     padding: 5rem 0;
     p {

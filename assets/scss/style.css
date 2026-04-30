@@ -12202,6 +12202,13 @@ header {
   color: #201547;
 }
 
+.btn-info {
+  background-color: #DFE2EE;
+  border-color: transparent;
+  border-radius: 30%;
+  color: #2E3E80;
+}
+
 .section-main {
   padding: 5rem 0;
 }
