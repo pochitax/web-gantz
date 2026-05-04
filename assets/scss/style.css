@@ -12240,6 +12240,11 @@ header {
   background-position: center;
 }
 
+.custom-col {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
 @media (max-width: 768px) {
   .section-main {
     padding: 3rem 0;
