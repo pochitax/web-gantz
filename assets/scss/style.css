@@ -12464,6 +12464,31 @@ main {
 .entry-news.featured-news p {
   display: block;
 }
+.entry-news.single-news .entry-data {
+  position: relative;
+}
+.entry-news.single-news .entry-news-content {
+  color: #2E3E80;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  background: transparent !important;
+}
+.entry-news.single-news a {
+  color: #2E3E80;
+}
+.entry-news.single-news .entry-title {
+  font-size: 16px;
+}
+.entry-news.single-news .entry-title a {
+  text-decoration: none;
+}
+.entry-news.single-news .entry-title a:hover {
+  text-decoration: underline;
+}
+.entry-news.single-news .entry-categories a {
+  border-left: 2px solid #201547;
+}
 
 .entry-single p {
   color: #2E3E80;

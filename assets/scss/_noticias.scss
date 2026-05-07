@@ -66,6 +66,33 @@
             display: block;
         }
     }
+    &.single-news {
+        .entry-data {
+            position: relative;
+        }
+        .entry-news-content {
+            color: $primary_blue;
+            font-size: $paragraph-font-size - 4;
+            position: relative;
+            z-index: 1;
+            background: transparent !important;
+        }
+        a {
+            color: $primary_blue;
+        }
+        .entry-title {
+            font-size: $paragraph-font-size - 4;
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+        .entry-categories a {
+            border-left: 2px solid $primary_indigo;
+        }
+    }
 }
 
 // NOTICIAS SINGLE
