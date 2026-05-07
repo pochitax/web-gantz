@@ -87,9 +87,19 @@ header {
     flex: 0 0 20%;
     max-width: 20%;
 }
+@media (min-width: 769px) and (max-width: 1200px) {
+    .custom-col {
+        flex: 33.3%;
+        max-width: 33.3%;
+    }
+}
 @media (max-width: 768px) {
     .section-main {
         padding: 3rem 0;
+    }
+    .custom-col {
+        flex: 50%;
+        max-width: 50%;
     }
 }
 .wavy-underline {
