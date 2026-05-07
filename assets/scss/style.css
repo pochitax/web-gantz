@@ -12211,6 +12211,7 @@ header {
 
 .section-main {
   padding: 5rem 0;
+  scroll-margin-top: 5rem;
 }
 .section-featured {
   height: 512px;
