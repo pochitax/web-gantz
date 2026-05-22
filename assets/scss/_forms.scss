@@ -1,0 +1,29 @@
+.form-featured {
+    //background-color: $shade_white;
+    .form-label {
+        background-color: $main_white;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 8px;
+        border-radius: 4px;
+        margin-left: 16px;
+    }
+    .form-control {
+        border: 1px solid rgba($primary_blue, 0.3);
+        background-color: $white;
+        padding: 22px;
+        border-radius: 12px;
+        &::placeholder {
+            font-weight: 400;
+        }
+    }
+    .content-form-control {
+        position: relative;
+        .form-label {
+            position: absolute;
+        }
+        .form-control {
+            margin-top: 16px;
+        }
+    }
+}

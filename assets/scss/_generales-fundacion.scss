@@ -29,6 +29,9 @@ header {
     background-color: $shade_white;
     color: $primary_blue;
 }
+.bg-main-white {
+    background-color: $main_white;
+}
 .section-title {
     font-size: $h2-font-size;
     font-weight: bold;
@@ -254,4 +257,34 @@ main {
 }
 .alliance-img {
     max-width: 230px;
+}
+
+.gantz-breadcrumb {
+    align-items: flex-end;
+    background: none;
+    border: none;
+    .bc-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+        .bc-item {
+            display: flex;
+            width: fit-content;
+            flex-shrink: 0;
+            .bc-link {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 6px;
+                text-decoration: none;
+            }
+        }
+    }
 }

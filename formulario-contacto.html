@@ -163,13 +163,15 @@
     <!-- main // cuerpo -->
     <main role="main">
         <!-- breadcrumb -->
-         <nav class="gantz-breadcrumb" aria-label="Ruta de navegación">
+        <nav class="gantz-breadcrumb" aria-label="Ruta de navegación">
             <div class="container">
                 <ol class="bc-list" itemscope="" itemtype="https://schema.org/BreadcrumbList">
                     <li class="bc-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
-                        <a href="https://gantz.nkwebs.cl/" class="bc-link" itemprop="item">
+                        <a href="http://localhost/wordpress/gantz-web/" class="bc-link" itemprop="item">
                             <svg class="bc-home-icon" aria-hidden="true" focusable="false">
-                                <use href="https://gantz.nkwebs.cl/wp-content/themes/gantz/assets/images/icons.svg#home"></use>
+                                <use
+                                    href="http://localhost/wordpress/gantz-web/wp-content/themes/gantz-theme/assets/images/icons.svg#home">
+                                </use>
                             </svg>
                             <span class="sr-only body-2-bold" itemprop="name">
                                 Inicio
@@ -177,154 +179,102 @@
                         </a>
                         <meta itemprop="position" content="1">
                     </li>
-                    <li class="bc-item" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
-                        <a href="https://gantz.nkwebs.cl/noticias/" class="bc-link" itemprop="item">
-                            <span class="body-2-bold" itemprop="name">Noticias</span>
-                        </a>
-                        <meta itemprop="position" content="2">
-                    </li>
-                    <li class="bc-item bc-item-current" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                    <li class="bc-item bc-item-current" itemprop="itemListElement" itemscope=""
+                        itemtype="https://schema.org/ListItem">
+
                         <span class="bc-current body-2-bold" itemprop="name" aria-current="page">
-                        Ortodoncistas de Fundación Gantz realizaron clase a alumnos de Odontología de la Universidad del Desarrollo                          </span>
-                        <meta itemprop="position" content="3">
+                            Contacto </span>
+                        <meta itemprop="position" content="2">
                     </li>
                 </ol>
             </div>
         </nav>
-        <!-- sección de Noticias -->
-        <article class="section-main entry-single">
-            <div class="container">
-                <!-- cabecera de la noticia -->
-                <div class="row">
-                    <div class="col">
-                        <!-- categorías noticias -->
-                         <ul class="list-inline entry-categories mb-2">
-                            <li class="list-inline-item"><a href="#">Formación</a></li>
-                        </ul>
-                        <!-- título noticias -->
-                        <h1 class="section-title color-indigo-primary">Ortodoncistas de Fundación Gantz realizaron clase a alumnos de Odontología de la Universidad del Desarrollo</h1>
-                        <!-- etiquetas relacionadas -->
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Ortodoncia</a></li>
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Docencia</a></li>
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Odontología</a></li>
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Universidad del Desarrollo</a></li>
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Formación</a></li>
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Malformaciones craneales</a></li>
-                            <li class="list-inline-item"><a href="#" class="btn btn-info btn-sm rounded-pill">Cirugía maxilofacial</a></li>
-                        </ul>
-                        <!-- imagen destacada -->
-                        <figure class="featured-entry-single my-5">
-                            <img src="https://picsum.photos/id/237/1278/768" class="ratio ratio-16x9 rounded-4 shadow-sm overflow-hidden" alt="Descripción de la imagen">
-                            <figcaption class="fst-italic">Leyenda o descripción de la figura</figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <!-- cuerpo de la noticia -->
-                <div class="row my-4">
-                    <div class="col-md-8 mx-auto">
-                        <div class="entry-data mb-4">
-                            <!-- fecha -->
-                            <p class="entry-date">Publicado el 5 de noviembre de 2025</p>
-                            <!-- bajada // descripción corta -->
-                            <p class="entry-description">El pasado miércoles 1 de octubre de 2025, los doctores Marcelo Núñez y Erin Balocchi, ambos ortodoncistas de Fundación Gantz, fueron invitados a realizar una clase para los estudiantes de quinto año de Odontología de la Universidad del Desarrollo, sede San Carlos de Apoquindo.</p>
-                        </div>
-                        <!-- extensión noticia -->
-                        <p>La sesión abordó los temas “Introducción a las Malformaciones Craneofaciales” y “Fisura Labio Alveolo Palatina: generalidades, diagnóstico y tratamiento integral”, destacando la importancia del tratamiento integral y multidisciplinario para abordar patologías de alta complejidad como las fisuras labiopalatinas, y la necesidad de una formación especializada que permita enfrentar sus desafíos clínicos.</p>
-                        <p>Durante la clase, los profesionales presentaron los protocolos utilizados en Fundación Gantz, resaltando el rol de la institución como centro de referencia clínico y académico en Chile, donde se forman especialistas que posteriormente contribuyen en distintos centros de atención a lo largo del país.Finalmente, los doctores extendieron una invitación a los alumnos a conocer el Hospital del Niño con Fisura, participar en actividades académicas y pasantías guiadas, y desarrollar investigaciones o tesis de pre y posgrado junto al equipo profesional de la fundación.</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!-- Galería de imágenes relacionada a la noticia -->
-        <section class="section-main pt-0">
+        <!-- sección de Formulario -->
+        <section class="section-main bg-main-white">
             <div class="container">
                 <div class="row">
-                    <div class="col text-center">
-                        <h3 class="fw-bold mb-4">Galería de imágenes</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- fotos -->
-                    <a href="#" class="col-md-4 featured-entry-single my-4">
-                        <img src="https://picsum.photos/id/237/1278/768" class="ratio ratio-16x9 rounded-4 shadow-sm overflow-hidden" alt="Descripción de la imagen">
-                    </a>
-                    <a href="#" class="col-md-4 featured-entry-single my-4">
-                        <img src="https://picsum.photos/id/237/1278/768" class="ratio ratio-16x9 rounded-4 shadow-sm overflow-hidden" alt="Descripción de la imagen">
-                    </a>
-                    <a href="#" class="col-md-4 featured-entry-single my-4">
-                        <img src="https://picsum.photos/id/237/1278/768" class="ratio ratio-16x9 rounded-4 shadow-sm overflow-hidden" alt="Descripción de la imagen">
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Noticias relacionadas -->
-        <section class="section-main bg-shade-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <h2 class="section-title mb-5">Noticias relacionadas</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <article class="entry-news single-news mb-4">
-                            <img class="w-100 entry-image ratio ratio-16x9 rounded-4 shadow-sm" src="https://picsum.photos/id/237/1278/768">
-                            <div class="entry-news-content">
-                                <div class="entry-data px-0">
-                                    <h3 class="entry-title"><a href="#">Ortodoncistas de Fundación Gantz realizaron clase a alumnos de Odontología de la Universidad del Desarrollo</a></h3>
-                                    <p>Los doctores Marcelo Núñez y Erin Balocchi, ambos ortodoncistas de Fundación Gantz, fueron invitados a realizar una clase.</p>
-                                    <ul class="list-inline entry-categories mb-0">
-                                        <li class="list-inline-item"><a href="#">Formación</a></li>
-                                    </ul>
+                    <div class="col-md-10 mx-auto">
+                        <h1 class="section-title text-center mb-5 color-indigo-primary">Contacto</h1>
+                        <form class="container form-featured">
+                            <!-- Nombre y apellido -->
+                            <div class="row">
+                                <div class="mb-4 col-md-6 content-form-control">
+                                    <label for="nombreConsultante" class="form-label">Nombre(s)</label>
+                                    <input type="text" class="form-control" id="nombreConsultante" placeholder="ej. José Miguel">
+                                </div>
+                                <div class="mb-4 col-md-6 content-form-control">
+                                    <label for="apellidoConsultante" class="form-label">Apellido(s)</label>
+                                    <input type="text" class="form-control" id="apellidoConsultante" placeholder="ej. Rivera Fuentes">
                                 </div>
                             </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="entry-news single-news mb-4">
-                            <img class="w-100 entry-image ratio ratio-16x9 rounded-4 shadow-sm" src="https://picsum.photos/id/237/1278/768">
-                            <div class="entry-news-content">
-                                <div class="entry-data px-0">
-                                    <h3 class="entry-title"><a href="#">Ortodoncistas de Fundación Gantz realizaron clase a alumnos de Odontología de la Universidad del Desarrollo</a></h3>
-                                    <p>Los doctores Marcelo Núñez y Erin Balocchi, ambos ortodoncistas de Fundación Gantz, fueron invitados a realizar una clase.</p>
-                                    <ul class="list-inline entry-categories mb-0">
-                                        <li class="list-inline-item"><a href="#">Formación</a></li>
-                                    </ul>
+                            <!-- teléfono y correo -->
+                            <div class="row">
+                                <div class="mb-4 col-md-6 content-form-control">
+                                    <label for="TelefonoConsultante" class="form-label">Teléfono</label>
+                                    <input type="phone" class="form-control" id="TelefonoConsultante" placeholder="+56 912345678">
+                                </div>
+                                <div class="mb-4 col-md-6 content-form-control">
+                                    <label for="correoConsultante" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="correoConsultante" placeholder="ej. correo.electronico@gmail.com">
                                 </div>
                             </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="entry-news single-news mb-4">
-                            <img class="w-100 entry-image ratio ratio-16x9 rounded-4 shadow-sm" src="https://picsum.photos/id/237/1278/768">
-                            <div class="entry-news-content">
-                                <div class="entry-data px-0">
-                                    <h3 class="entry-title"><a href="#">Ortodoncistas de Fundación Gantz realizaron clase a alumnos de Odontología de la Universidad del Desarrollo</a></h3>
-                                    <p>Los doctores Marcelo Núñez y Erin Balocchi, ambos ortodoncistas de Fundación Gantz, fueron invitados a realizar una clase.</p>
-                                    <ul class="list-inline entry-categories mb-0">
-                                        <li class="list-inline-item"><a href="#">Formación</a></li>
-                                    </ul>
+                            <!-- suscripción al newsletter -->
+                            <div class="row">
+                                <div class="col-xl-7">
+                                    <p class="fw-semibold">¿Deseas recibir noticias sobre Fundación Gantz en tu correo eléctronico?</p>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Sí, me quiero suscribir</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No por ahora.</label>
+                                    </div>
                                 </div>
                             </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Sección Suscripción -->
-        <section class="section-main bg-primary-blue">
-            <div class="container py-2 py-sm-5 text-center">
-                <h2 class="section-title color-yellow-primary">¿Te interesa lo que hacemos?</h2>
-                <div class="row">
-                    <div class="col-md-6 mx-auto">
-                        <p class="mb-5">Suscríbete a nuestro newsletter trimestral y mantente informado sobre nuestras últimas actividades, historias de impacto, oportunidades de voluntariado y otras formas de ser parte de nuestra misión.</p>
-                        <form>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control px-5 py-3" placeholder="Ingresa tu correo electrónico" aria-label="Ingresa tu correo electrónico" aria-describedby="button-addon2">
-                                <button class="btn btn-warning px-5 py-3" type="button" id="button-addon2">Suscribirse</button>
+                            <!-- asunto -->
+                            <div class="row">
+                                <div class="mb-4 col-12 content-form-control">
+                                    <label for="asuntoConsulta" class="form-label">Asunto</label>
+                                    <input type="text" class="form-control" id="asuntoConsulta" placeholder="Asunto de contacto (quiero donar en especies, quiero trabajar aquí, etcétera)">
+                                </div>
+                                <div class="mb-4 col-12 content-form-control">
+                                    <label for="contenidoConsulta" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="contenidoConsulta" rows="8" placeholder="Relata en detalle el motivo de tu correo, de forma que podamos atenderte de la mejor manera."></textarea>
+                                </div>
+                            </div>
+                            <!-- enviar -->
+                            <div class="row align-items-center">
+                                <div class="mb-4 col">
+                                    <p class="fw-semibold"><i class="bi bi-exclamation-circle me-2"></i> Todos los campos son obligatorios</p>
+                                </div>
+                                <div class="mb-4 col-auto">
+                                    <button type="submit" class="btn btn-warning btn-lg fw-semibold mb-4">Enviar mensaje</button>
+                                </div>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Contacta a Belén -->
+        <section class="section-main bg-primary-blue">
+            <div class="container py-2 py-sm-5 text-left">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-8 mx-auto">
+                        <div class="row gx-5 align-items-xxl-center">
+                            <div class="col-8 col-md-4">
+                                <img class="rounded-circle shadow w-100 mb-5 mb-md-0" src="assets/images/banners/68d78df619f0d6bbad29c405e2907075a00947a7.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="section-title color-yellow-primary mb-4">¿Prefieres conversar?</h2>
+                                <p class="mb-4"><span class="h4 fw-semibold">Belen Salvatierra</span><br> Coordinadora de Marketing y Comunicaciones</p>
+                                <a href="mailto:comunicaciones@gantz.cl" class="btn btn-outline-light px-4 py-3 me-3 mb-4 mb-xxl-0"><i class="bi bi-envelope text-warning me-2" aria-hidden="true"></i> comunicaciones@gantz.cl</a>
+                                <a href="tel:+56968784688" class="btn btn-outline-light px-4 py-3 mb-4 mb-xxl-0"><i class="bi bi-telephone text-warning me-2" aria-hidden="true"></i> 9 6878 4688</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
