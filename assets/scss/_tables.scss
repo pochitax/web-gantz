@@ -1,0 +1,16 @@
+.table-donate {
+    border: 1px solid rgba($primary_blue, 0.3);
+    //border-radius: 12px;
+    td, th {
+        padding: 2rem;
+    }
+    th {
+        color: $primary-indigo;
+    }
+    td {
+        color: $primary_blue;
+    }
+    tr:first-child th:first-child {
+        //border-top-left-radius: 12px;
+    }
+}

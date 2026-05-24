@@ -12185,13 +12185,22 @@ header {
 }
 
 .bg-main-white {
-  background-color: #F0F0F0;
+  background-color: #F0F0F0 !important;
+}
+
+.h1-section-title, h1, .h1 {
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-title {
   font-size: 42px;
   font-weight: bold;
   margin-bottom: 1.5rem;
+}
+
+.main-description {
+  font-size: 20px;
 }
 
 .color-yellow-primary {
@@ -12682,4 +12691,17 @@ main {
   font-size: 16px;
   font-weight: bold;
   color: #201547;
+}
+
+.table-donate {
+  border: 1px solid rgba(46, 62, 128, 0.3);
+}
+.table-donate td, .table-donate th {
+  padding: 2rem;
+}
+.table-donate th {
+  color: #201547;
+}
+.table-donate td {
+  color: #2E3E80;
 }/*# sourceMappingURL=style.css.map */
