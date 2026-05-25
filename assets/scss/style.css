@@ -12749,4 +12749,29 @@ main {
   margin-top: 30px;
   margin-bottom: 30px;
   height: 80px;
+}
+
+.box-warning {
+  position: relative;
+  padding-left: 70px;
+}
+.box-warning svg {
+  width: 48px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.box-warning .st0 {
+  fill: none;
+  stroke: #201547;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3.5px;
+}
+.box-warning .st1 {
+  fill: #201547;
+}
+.box-warning .title-box-warning {
+  font-size: 24px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

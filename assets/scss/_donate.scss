@@ -40,3 +40,27 @@
         height: 80px;
     }
 }
+.box-warning {
+    position: relative;
+    padding-left: 70px;
+    svg {
+        width: 48px;
+        position: absolute;
+        left: 0;
+        top: 10px; 
+    }
+    .st0 {
+        fill: none;
+        stroke: #201547;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3.5px;
+    }
+    .st1 {
+        fill: #201547;
+    }
+    .title-box-warning {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
