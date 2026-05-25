@@ -12729,4 +12729,24 @@ main {
 
 .svg-blue-primary {
   fill: #2E3E80;
+}
+
+.svg-yellow-primary {
+  fill: #FBB413;
+}
+
+.box-donate {
+  background-color: #2E3E80;
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+}
+.box-donate .title-box-donate {
+  color: #FBB413;
+  font-weight: 600;
+}
+.box-donate svg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 80px;
 }/*# sourceMappingURL=style.css.map */

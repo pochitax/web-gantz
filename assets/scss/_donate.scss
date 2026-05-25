@@ -22,6 +22,21 @@
 .svg-blue-primary {
     fill: $primary_blue;
 }
+.svg-yellow-primary {
+    fill: $primary_yellow;
+}
 .box-donate {
     background-color: $primary_blue;
+    color: $white;
+    border-radius: 12px;
+    padding: 30px;
+    .title-box-donate {
+        color: $primary-yellow;
+        font-weight: 600;
+    }
+    svg {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 80px;
+    }
 }
