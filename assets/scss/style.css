@@ -12704,4 +12704,29 @@ main {
 }
 .table-donate td {
   color: #2E3E80;
+}
+.box-info {
+  background-color: #fff;
+  border: 1px solid rgba(46, 62, 128, 0.3);
+  position: relative;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  min-height: 48px;
+  border-radius: 12px;
+}
+.box-info svg {
+  position: absolute;
+  width: 48px;
+  left: 30px;
+  top: 20px;
+}
+.box-info .title-box-info {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.svg-blue-primary {
+  fill: #2E3E80;
 }/*# sourceMappingURL=style.css.map */
