@@ -120,6 +120,36 @@
                 overflow: hidden;
             }
         }
+        &.gallery-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba($primary_blue, 0.3);
+            padding: 2rem 4rem 3rem 8rem;
+            position: relative;
+        }
+    }
+}
+.counter {
+    position: relative;
+    .col-12 {
+        position: relative;
+        counter-increment: step-counter;
+        &::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 3.5rem;
+            top: 50%;
+            margin-top: -48px;
+            width: 48px;
+            height: 48px;
+            border: 2px solid $primary-blue;
+            text-align: center;
+            line-height: 48px;
+            border-radius: 48px;
+            color: $primary-blue;
+            font-size: 20px;
+        }
     }
 }
 
