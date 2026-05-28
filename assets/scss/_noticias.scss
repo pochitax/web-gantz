@@ -93,6 +93,34 @@
             border-left: 2px solid $primary_indigo;
         }
     }
+    &.gallery-news {
+        .entry-data {
+            position: relative;
+        }
+        .entry-news-content {
+            color: $primary_blue;
+            position: relative;
+            z-index: 1;
+            background: transparent !important;
+        }
+        a {
+            color: $primary_indigo;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .entry-title {
+            font-size: $h4-font-size;
+            line-height: 135%;
+            a {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;           /* Number of lines to show */
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+        }
+    }
 }
 
 // NOTICIAS SINGLE
@@ -117,5 +145,16 @@
             font-size: $paragraph-font-size;
             font-weight: 600;
         }
+    }
+}
+
+.gallery-switch {
+    border: 1px solid rgba($primary_blue, 0.3);
+    background-color: $white;
+    border-radius: 12px;
+    padding: 15px;
+    a.active {
+        color: $accent_cobalt;
+        font-weight: bold;
     }
 }
