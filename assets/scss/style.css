@@ -12447,6 +12447,17 @@ main {
   text-decoration: none;
 }
 
+/*
+#carouselMainFeatures {
+    height: calc(100vh - 116px);
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+    */
 .entry-categories a {
   text-transform: uppercase;
   text-decoration: none;
