@@ -1,0 +1,27 @@
+.search-result {
+    border-top: 1px solid rgba($primary_blue, 0.3);
+    padding: 32px 0;
+    a {
+        text-decoration: none;
+        display: block;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.search-result-title {
+    color: $primary_indigo;
+    font-size: 24px;
+    font-weight: 700;
+    a {
+        color: $primary_indigo;
+    }
+}
+.search-result-category {
+    color: $primary_blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-result-description {
+    font-size: 16px;
+}

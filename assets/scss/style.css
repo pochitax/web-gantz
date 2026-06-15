@@ -12853,4 +12853,35 @@ main {
 .box-warning .title-box-warning {
   font-size: 24px;
   font-weight: bold;
+}
+
+.search-result {
+  border-top: 1px solid rgba(46, 62, 128, 0.3);
+  padding: 32px 0;
+}
+.search-result a {
+  text-decoration: none;
+  display: block;
+}
+.search-result a:hover {
+  text-decoration: underline;
+}
+
+.search-result-title {
+  color: #201547;
+  font-size: 24px;
+  font-weight: 700;
+}
+.search-result-title a {
+  color: #201547;
+}
+
+.search-result-category {
+  color: #2E3E80;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search-result-description {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
