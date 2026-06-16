@@ -1,0 +1,31 @@
+.testimonial-extends {
+    color: $primary-blue;
+    .testimonial-extends-title {
+        font-size: $h2-font-size;
+        font-weight: bold;
+        color: $primary_indigo;
+    }
+    .testimonial-extends-description {
+        font-size: $h4-font-size;
+        font-weight: 600;
+    }
+    .testimonial-cite {
+        color: $accent_cobalt;
+        padding: 20px;
+        border-left: 4px solid $accent_cobalt;
+        .blockquote {
+            font-weight: 600;
+            line-height: 125%;
+            font-style: italic;
+        }
+        .blockquote-footer {
+            font-style: normal;
+            color: $accent_cobalt;
+            font-size: 16px;
+            cite {
+                font-style: normal;
+                font-weight: bold;
+            }
+        }
+    }
+}
