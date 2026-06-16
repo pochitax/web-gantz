@@ -12884,4 +12884,19 @@ main {
 
 .search-result-description {
   font-size: 16px;
+}
+
+.banner-cards {
+  font-size: 29px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  color: #201547;
+  text-decoration: none;
+  border-top: 1px solid rgba(46, 62, 128, 0.3);
+  border-bottom: 1px solid rgba(46, 62, 128, 0.3);
+  padding: 32px 0;
+}
+.banner-cards:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
